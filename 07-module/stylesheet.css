@@ -1,0 +1,19 @@
+#leftFlower {
+  margin-right: 5px;
+  float: left;
+}
+
+#rightFlower {
+  float: right;
+  margin-left: 5px;
+}
+body {
+  margin: 25px;
+}
+.floatingDiv {
+  width: 150px;
+  margin: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  float: left;
+}

@@ -1,0 +1,64 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: cursive;
+  color: rgb(255, 93, 0) !important;
+}
+h2 {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 2px;
+}
+h2[style*="italic"] {
+  font-style: normal !important;
+}
+header {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 48px;
+  text-shadow: 3px 2px 2px rgba(149, 137, 138, 0.9);
+  text-align: center;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  color: white;
+  background-color: rgb(255, 93, 0);
+  padding: 40px;
+}
+nav a:hover {
+  color: rgb(255, 93, 0);
+  background-color: rgb(72, 70, 70);
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: 1px;
+  border-style: solid;
+  border-radius: 5px 5px 0 0;
+  margin-right: -4.5px;
+  padding: 3px;
+}
+nav {
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+aside {
+  background: linear-gradient(white 25px, rgb(255, 93, 0));
+}
+img {
+  float: right;
+  margin-right: 100px;
+  margin-left: 100px;
+}
